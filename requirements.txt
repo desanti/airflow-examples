@@ -1,0 +1,2 @@
+apache-airflow[postgres, amazon] == 2.3.3
+fastparquet==0.8.1
