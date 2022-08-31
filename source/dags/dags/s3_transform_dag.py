@@ -5,7 +5,7 @@ Exemplo de utilização do **S3FileTransformOperator**.
 Onde carrega o arquivo **ds_salaries.csv** do S3, e armazena o arquivo **data_engineer_salaries** em formato **PARQUET**
 após algumas transformações.
 
-Mais detalhes na [documentação]()
+Mais detalhes na [documentação](https://github.com/desanti/airflow-examples/blob/main/source/dags/etl/s3_file_transform/README.md)
 
 """
 
