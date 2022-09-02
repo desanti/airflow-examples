@@ -8,7 +8,7 @@ Alguns códigos de exemplo para pipelines no Airflow.
 - [s3_to_s3_transform_dag](#s3_to_s3_transform_dag)
 
 
-### s3_transform_dag 
+## s3_transform_dag 
 
 A DAG [s3_transform_dag](/source/dags/dags/s3_transform_dag.py) exemplifica a utilização do **S3FileTransformOperator**. 
 
@@ -19,7 +19,7 @@ são enviados novamente para o S3.
 Mais detalhes do pipeline pode ser encontrada na [documentação](/docs/S3FileTransformOperator.md).
 
 
-### s3_to_s3_transform_dag
+## s3_to_s3_transform_dag
 
 A DAG [s3_to_s3_transform_dag](/source/dags/dags/s3_to_s3_transform_dag.py) utiliza o operator **S3PythonTransformOperator**
 para realizar a mesma operação que a **S3FileTransformOperator**.
