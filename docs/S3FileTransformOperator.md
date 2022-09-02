@@ -19,7 +19,7 @@ O repositório do [jamesang17](https://github.com/jamesang17/airflow-app) tem um
 
 ### S3_TRANSFORM_DAG.PY
 
-Na [DAG](../../dags/s3_transform_dag.py) apresenta a utilização do `S3FileTransformOperator`. 
+Na [DAG](../source/dags/dags/s3_transform_dag.py) apresenta a utilização do `S3FileTransformOperator`. 
 Abaixo o código e a explicação dos principais parâmetros.
 
 
@@ -47,7 +47,7 @@ a palavra "Data Engineer", que será utilizada como filtro no dataset.
 
 ### TRANSFORM.PY
 
-O [`transform.py`](transform.py) é o `entrypoint` para realizar as transformações necessárias no dataset. 
+O [`transform.py`](../source/dags/etl/s3_file_transform/transform.py) é o `entrypoint` para realizar as transformações necessárias no dataset. 
 Alguns pontos importantes são explicados a seguir.
 
 #### IDENTIFICAÇÃO DO INTERPRETADOR DE SCRIPT
@@ -106,7 +106,7 @@ logging.info("Completed data cleaning!")
 
 ### DATA_CLEANING.PY
 
-Nesse [arquivo](data_cleaning.py) está o código para tratamento dos dados.
+Nesse [arquivo](../source/dags/etl/s3_file_transform/data_cleaning.py) está o código para tratamento dos dados.
 
 Dois pontos devem ser observados. O primeiro é o parâmetro `input_file`, que é o nome do arquivo temporário com os dados.
 Ele pode ser lido normalmente pelo `pandas`. Conforme o código abaixo:
