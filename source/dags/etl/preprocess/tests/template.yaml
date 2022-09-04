@@ -1,0 +1,5 @@
+default:
+  column:
+    date:
+      position: 0
+      format: YYYY-MM-dd

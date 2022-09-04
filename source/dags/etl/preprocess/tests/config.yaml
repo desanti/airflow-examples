@@ -1,0 +1,9 @@
+company_1:
+  column:
+    date:
+      position: 3
+      format: "YYYY-MM-dd"
+company_2:
+  template: default
+company_3:
+  template: template_doesnt_exists

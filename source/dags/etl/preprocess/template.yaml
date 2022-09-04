@@ -1,0 +1,16 @@
+default:
+  column:
+    date:
+      position: 0
+      format: YYYY-MM-dd
+template_1:
+  file_extension: "CSV"
+  column:
+    date:
+      position: 3
+      format: "YYYY-MM-dd"
+    value:
+      position: 2
+      decimal_separator: ","
+    name:
+      position: 4

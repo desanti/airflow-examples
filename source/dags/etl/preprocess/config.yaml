@@ -1,0 +1,14 @@
+company_1:
+  column:
+    date:
+      position: 3
+      format: "YYYY-MM-dd"
+    value:
+      position: 2
+      decimal_separator: ","
+    name:
+      position: 4
+company_2:
+  template: default
+company_3:
+  template: template1
